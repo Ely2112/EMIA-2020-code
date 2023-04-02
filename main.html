@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header"><h1>Ordering Machine</h1></div>
+    <div class="menu" id="main">
+        <p>Main: (Choose one only) </p>
+        <label>
+            <input type="checkbox" name="check1" onclick="onlyOne1(this)"/>Congee</label>
+        <label>
+            <input type="checkbox" name="check1" onclick="onlyOne1(this)"/>Rice</label>
+        <label>
+            <input type="checkbox" name="check1" onclick="onlyOne1(this)"/>Noddles</label>
+    </div>
+    <br><br>
+    <div class="menu" id="side dish">
+        <p>Side Dish: (Choose one only) </p>
+        <label>
+            <input type="checkbox" name="check2" onclick="onlyOne2(this)"/>Ham</label>
+        <label>
+            <input type="checkbox" name="check2" onclick="onlyOne2(this)"/>Egg</label>
+        <label>
+            <input type="checkbox" name="check2" onclick="onlyOne2(this)"/>Salad</label>
+    </div>
+    <br><br>
+    <div class="menu" id="drink">
+        <p>Drink: (Choose one only) </p>
+        <label>
+            <input type="checkbox" name="check3" onclick="onlyOne3(this)"/>Milk</label>
+        <label>
+            <input type="checkbox" name="check3" onclick="onlyOne3(this)"/>Tea</label>
+        <label>
+            <input type="checkbox" name="check3" onclick="onlyOne3(this)"/>Coffee</label>
+    </div>
+    <br><br>
+    <div class="menu" id="extra_order">
+        <p>Extra Order: </p>
+        <label>
+            <input type="checkbox" name="check4"/>No need</label>
+        <label>
+            <input type="checkbox" name="check4"/>Congee</label>
+        <label>
+            <input type="checkbox" name="check4"/>Rice</label>
+        <label>
+            <input type="checkbox" name="check4"/>Ham</label>
+        <label>
+            <input type="checkbox" name="check4"/>Egg</label>
+        <label>
+            <input type="checkbox" name="check4"/>Salad</label>
+        <label>
+            <input type="checkbox" name="check4"/>Milk</label>
+        <label>
+            <input type="checkbox" name="check4"/>Coffee</label>
+    </div>
+    <br><br><br><br>
+    <div>
+        <img id="toaster_pic" src="s-l500.jpeg" alt="Toaster">
+    </div>
+</body>
+</html>

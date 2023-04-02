@@ -1,0 +1,16 @@
+body{
+    background: #dfddd7;
+}
+#header{
+    text-align: center;
+    font-size: 3ch;
+}
+.menu{
+    text-align: center;
+}
+#toaster_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
